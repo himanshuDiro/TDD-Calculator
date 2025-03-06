@@ -5,7 +5,7 @@ function add(numbers) {
       return 0;
     }
     
-    const nums = numbers.split(',');
+    const nums = numbers.replace(/\n/g, ',').split(',');
     let sum = 0;
     
     for (const num of nums) {
