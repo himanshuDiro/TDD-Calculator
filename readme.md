@@ -34,7 +34,7 @@ The solution was developed following the Test-Driven Development process:
 ```bash
 # Clone the repository
 git clone https://github.com/himanshuDiro/TDD-Calculator.git
-cd string-calculator-tdd
+
 
 # Install dependencies
 npm install
