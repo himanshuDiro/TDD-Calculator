@@ -1,1 +1,8 @@
-./node_modules
+# Node modules
+node_modules/
+
+# Jest cache
+.jest/
+
+# Jest coverage
+coverage/
