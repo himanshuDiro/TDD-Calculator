@@ -28,7 +28,7 @@ function add(numbers) {
     }
     
     if (negativeNumbers.length > 0) {
-      throw new Error(`negative numbers not allowed ${negativeNumbers[0]}`);
+      throw new Error(`negative numbers not allowed ${negativeNumbers.join(',')}`);
     }
     
     return sum;
