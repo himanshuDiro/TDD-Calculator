@@ -6,11 +6,13 @@ function add(numbers) {
     }
     
     const nums = numbers.split(',');
-    if (nums.length === 1) {
-      return parseInt(nums[0]);
+    let sum = 0;
+    
+    for (const num of nums) {
+      sum += parseInt(num);
     }
     
-    return parseInt(nums[0]) + parseInt(nums[1]);
+    return sum;
   }
   
   module.exports = { add };
